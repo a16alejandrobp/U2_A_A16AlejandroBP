@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".U2_A_A16AlejandroBP">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/general"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:hint="@string/edittext"
+            android:inputType="textCapWords" />
+
+        <CheckBox
+            android:id="@+id/chk"
+            android:buttonTint="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox" />
+
+        <Button
+            android:id="@+id/add_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_clear"
+        />
+
+        <TextView
+            android:id="@+id/textApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textview"
+            android:textColor="@color/red" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbtn_red"
+                android:layout_weight="@dimen/radiobutton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:checked="true"
+                android:text="@string/red"
+                android:buttonTint="@android:color/holo_blue_dark"
+                android:onClick="cambiarColor"/>
+
+            <RadioButton
+                android:id="@+id/rbtn_blue"
+                android:layout_weight="@dimen/radiobutton"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/blue"
+                android:buttonTint="@android:color/holo_blue_dark"
+                android:onClick="cambiarColor"/>
+
+        </RadioGroup>
+        <View android:layout_width="match_parent" android:layout_height="@dimen/view" android:background="@android:color/black"/>
+        <Spinner
+            android:id="@+id/spin_provincias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/provincias"/>
+        <View android:layout_width="match_parent" android:layout_height="@dimen/view" android:background="@android:color/black"/>
+
+        <ImageView
+                android:id="@+id/img_catedral"
+                android:layout_width="wrap_content"
+                android:contentDescription="Imaxe"
+                android:src="@drawable/img"
+                android:layout_height="@dimen/imaxe"
+                android:onClick="imageClick"/>
+
+        <View android:layout_width="match_parent" android:layout_height="@dimen/view" android:background="@android:color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <Chronometer
+            android:id="@+id/cronometro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textocrono" />
+
+        <Switch android:id="@+id/boton_sw"
+            android:textOn="@string/start"
+            android:textOff="@string/stop"
+            android:showText="true"
+            android:thumbTint="@android:color/holo_blue_dark"
+            android:trackTint="@android:color/holo_blue_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

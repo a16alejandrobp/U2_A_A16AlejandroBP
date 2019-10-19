@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">U2_A_A16AlejandroBP</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="settings">Settings</string>
+    <string name="edittext">Type some text and press the button</string>
+    <string name="checkbox">Clear</string>
+    <string name="add_clear">Add / Clear</string>
+    <string name="textview">Here is where you will see the text that you type</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="cathedral">Cathedral of Santiago de Compostela</string>
+    <string name="provinceyes">You have selected a Galician province</string>
+    <string name="provinceno">You have not selected a Galician province</string>
+    <string name="acoruna">A Coruna</string>
+    <string name="lugo">Lugo</string>
+    <string name="ourense">Ourense</string>
+    <string name="pontevedra">Pontevedra</string>
+    <string name="leon">Leon</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general">16dp</dimen>
+    <dimen name="radiobutton">.5</dimen>
+    <dimen name="imaxe">100dp</dimen>
+    <dimen name="textocrono">20sp</dimen>
+    <dimen name="view">3dp</dimen>
+    <dimen name="spinnerland">.25</dimen>
+    <dimen name="cronoland">.75</dimen>
+</resources>
